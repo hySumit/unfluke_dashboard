@@ -93,7 +93,7 @@ const Scanner = () => {
           </div>
         </div>
         <div className="col-span-2 space-y-4">
-          <div className="border border-gray-600 w-[700px] glass rounded-[20px] p-4 space-y-4 relative left-[100px] ">
+          <div className="border border-gray-600  glass rounded-[20px] p-4 space-y-4  ">
             <h2 className="text-lg font-semibold text-gray-100">Filter</h2>
             <div className="grid grid-cols-2 gap-4">
               <div>
@@ -162,7 +162,7 @@ const Scanner = () => {
               </button>
             </div>
           </div>
-          <div className="border border-gray-600 glass2 rounded-[20px] p-4 space-y-4 w-[700px] relative left-[100px] h-[360px]">
+          <div className="border border-gray-600 glass2 rounded-[20px] p-4 space-y-4 ">
             <h2 className="text-lg font-semibold text-gray-100">Operations</h2>
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
