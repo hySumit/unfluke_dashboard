@@ -22,7 +22,7 @@ const Scanner = () => {
         <span className="text-gray-100">Scanner</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        <div className="col-span-1 space-y-6 ml-4 ">
+        <div className="col-span-1 space-y-6  ml-10 ">
           <div className="ml-[10px]">
             <label className="block text-gray-400">Name</label>
             <input
