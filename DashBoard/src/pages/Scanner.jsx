@@ -67,7 +67,7 @@ const Scanner = () => {
               ))}
             </div>
           </div>
-          <div className="drag glass border border-gray-600 relative left-[30px] p-2  overflow-auto h-[190px] ">
+          <div className="drag glass border border-gray-600 relative left-[20px] p-2  overflow-auto h-[190px] ">
             <input type="box" placeholder="Drag Something here!" className="w-full h-[100px] mt-1 p-2 bg-[#0f1014] text-white border border-gray-600 rounded-[10px] hover:bg-gray-800 transition-colors duration-300 ease-in-out text-center " />
             <div className="bottom-1 flex items-center justify-between">
 
@@ -93,7 +93,7 @@ const Scanner = () => {
           </div>
         </div>
         <div className="col-span-2 space-y-4">
-          <div className="border border-gray-600  glass rounded-[20px] p-4 space-y-4  ">
+          <div className="border border-gray-600 w-[710px] glass rounded-[20px] p-4 space-y-4 relative left-[100px] ">
             <h2 className="text-lg font-semibold text-gray-100">Filter</h2>
             <div className="grid grid-cols-2 gap-4">
               <div>
@@ -162,7 +162,7 @@ const Scanner = () => {
               </button>
             </div>
           </div>
-          <div className="border border-gray-600 glass2 rounded-[20px] p-4 space-y-4 ">
+          <div className="border border-gray-600 glass2 rounded-[20px] p-4 space-y-4 w-[710px] relative left-[100px] h-[360px]">
             <h2 className="text-lg font-semibold text-gray-100">Operations</h2>
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
