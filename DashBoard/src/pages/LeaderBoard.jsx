@@ -145,7 +145,7 @@ export const LeaderBoard = () => {
               </thead>
               <tbody>
                 {data.map((row, index) => (
-                  <tr key={index} className="hover:bg-gray-900  transition-colors duration-300 ease-in-out glass2">
+                  <tr key={index} className="hover:bg-gray-700 transition-colors duration-300 ease-in-out glass2">
                     <td className="px-4 py-2 text-left">{row.rank}</td>
                     <td className="px-4 py-2 text-left">{row.name}</td>
                     <td className="px-4 py-2 text-left">{row.c_ratio}</td>
